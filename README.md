@@ -83,7 +83,7 @@ module.exports = {
 };
 ```
 
-| Notice: there's a bug with resolveLoader.alias, see [#1289](https://github.com/webpack/webpack/issues/1289)
+> Notice: there's a bug with `resolveLoader.alias`, see [#1289](https://github.com/webpack/webpack/issues/1289)
 
 But this require you create a separate file for every loader, and was not so flexible.
 So I create this package.
