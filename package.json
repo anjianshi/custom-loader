@@ -1,0 +1,23 @@
+{
+  "name": "custom-loader",
+  "version": "0.0.1",
+  "description": "a loader help you use custom loader in webpack",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "author": "anjianshi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:anjianshi/custom-loader.git"
+  },
+  "dependencies": {
+    "loader-utils": "^0.2.12"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "custom"
+  ]
+}
