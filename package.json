@@ -1,6 +1,6 @@
 {
   "name": "custom-loader",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "a loader help you use custom loader in webpack",
   "main": "index.js",
   "files": [
