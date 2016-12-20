@@ -13,7 +13,7 @@
     "url": "git@github.com:anjianshi/custom-loader.git"
   },
   "dependencies": {
-    "loader-utils": "^0.2.12"
+    "loader-utils": "^0.2.16"
   },
   "keywords": [
     "webpack",
