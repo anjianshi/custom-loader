@@ -6,11 +6,8 @@ function customLoader() {
     var query = utils.parseQuery(this.query);
     var loaderName = query[customLoader.queryKey];
 
-    delete query[customLoader.queryKey];
-    var context = Object.assign({}, this, { query: "?" + JSON.stringify(query) });
-
     var loaderFunc = customLoader.loaders[loaderName];
-    return loaderFunc.apply(context, arguments);
+    return loaderFunc.apply(this, arguments);
 }
 
 customLoader.queryKey = "name";
